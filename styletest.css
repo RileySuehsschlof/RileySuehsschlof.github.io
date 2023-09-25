@@ -17,3 +17,6 @@ p3{
 body {
     background-image: URL("galaxy.jpg");
 }
+nav {
+    background-color: white;
+}
