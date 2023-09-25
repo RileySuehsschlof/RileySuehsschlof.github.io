@@ -1,12 +1,16 @@
 h1 {
     color:red;
+    background-color: yellow;
 }
 p1 {
     color:blue;
+    background-color: orange;
 }
 p2{
     color:green;
+    background-color: brown;
 }
 p3{
     color:darkorchid;
+    background-color: red;
 }
