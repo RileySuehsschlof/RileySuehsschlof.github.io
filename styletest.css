@@ -20,3 +20,7 @@ body {
 nav {
     background-color: white;
 }
+.wrapper {
+    display:flex; 
+    flex-wrap:wrap;
+}
