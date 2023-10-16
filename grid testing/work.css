@@ -1,0 +1,60 @@
+.container>div {
+    padding: 10px;
+    border: 8px solid black;
+    text-align: center;
+}
+.container {
+    display: grid;
+    gap: 10px;
+    height: 500px;
+    width: 500px;
+}
+#g {
+    display: grid;
+    grid-column-start:1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border:green 8px solid;
+}
+#g2 {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    border: 8px solid green;
+}
+#r {
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border:red 8px solid;
+}
+#r2 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    border: red 8px solid;
+}
+#y {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: yellow 8px solid;
+}
+#y2 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border: yellow 8px solid;
+}
+
